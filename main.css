@@ -1,0 +1,31 @@
+body {
+    background-color: #5A5050;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    padding: 2em;
+
+
+}
+.my-name {
+    width: 100%;
+    /*float: left;*/
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: .9em;
+    /*border: 4px double black;*/
+
+}
+.avatar {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+    text-align: center;
+    /*border: 4px double black;*/
+    width: 18%;
+}
+.avatar img {
+    border-radius: 50%;
+    max-height: 150px;
+    border: .2em solid #39ACA8;
+}
